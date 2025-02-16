@@ -1,0 +1,32 @@
+{
+  "name": "processmovies",
+  "version": "1.0.0",
+  "description": "A very personal process to import movies",
+  "main": "index.js",
+  "scripts": {
+    "build": "ncc build index.js -o dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/funkylarma/processMovies.git"
+  },
+  "author": "Adam Chamberlin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/funkylarma/processMovies/issues"
+  },
+  "homepage": "https://github.com/funkylarma/processMovies#readme",
+  "dependencies": {
+    "@actions/core": "^1.11.1",
+    "@actions/github": "^6.0.0",
+    "axios": "^1.7.9",
+    "date-fns": "^4.1.0",
+    "sanitize-filename": "^1.6.3",
+    "turndown": "^7.2.0",
+    "xml2js": "^0.6.2"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.38.3"
+  }
+}

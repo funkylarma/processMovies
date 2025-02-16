@@ -1,0 +1,6 @@
+name: 'LetterBoxd Feed to Markdown'
+description: 'Converts the RSS feed from Letterboxd to Markdown files'
+author: 'Adam Chamberlin'
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
